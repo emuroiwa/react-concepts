@@ -11,7 +11,7 @@ import EventBind from './components/EventBind';
 import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
 import Form from './components/Form';
-import LifeCycleA from './components/LifeCycleA';
+import LifeCycleA from './components/Lifecycle/LifeCycleA';
 
 function App() {
   return (
