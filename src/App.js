@@ -11,6 +11,7 @@ import EventBind from './components/EventBind';
 import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
 import Form from './components/Form';
+import LifeCycleA from './components/LifeCycleA';
 
 function App() {
   return (
@@ -20,11 +21,12 @@ function App() {
       <Message name="fffs" />
       <Counter /> */}
       {/* <FxnClick />
-      <ClassClick /> */}
+      <ClassClick /> 
       <Form />
       <EventBind />
-      <UserGreeting />
+      <UserGreeting />*/}
       <NameList />
+      <LifeCycleA />
     </div>
   );
 }

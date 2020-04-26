@@ -2,8 +2,8 @@ import React from 'react'
 
 function NameList() {
     const Names = ['ernest','test','test1','test2'];
-    const listItems = Names.map((Name) =>
-    <li>{Name}</li>
+    const listItems = Names.map((Name,index) =>
+    <li key = {index}>{Name}</li>
   );
     return (
         <div>
