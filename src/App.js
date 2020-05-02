@@ -14,6 +14,7 @@ import Form from "./components/Form";
 import LifeCycleA from "./components/Lifecycle/LifeCycleA";
 import RefDemo from "./components/RefsDemo/RefDemo";
 import InputB from "./components/RefsDemo/InputB";
+import FRParent from "./components/RefsDemo/FRParent";
 
 function App() {
   return (
@@ -29,8 +30,9 @@ function App() {
       <UserGreeting />
 			<NameList />
 			<LifeCycleA />*/}
-      <RefDemo />
-      <InputB />
+      {/* <RefDemo />
+      <InputB /> */}
+      <FRParent />
     </div>
   );
 }
